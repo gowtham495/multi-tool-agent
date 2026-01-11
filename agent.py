@@ -23,6 +23,7 @@ litellm._turn_on_debug()
 MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:7b-instruct")
 
 # Initialize the root agent
+# To integrate Ollama, LiteLLM class is used
 root_agent = Agent(
     model=LiteLlm(model="ollama_chat/" + MODEL), 
     name="weather_time_agent",

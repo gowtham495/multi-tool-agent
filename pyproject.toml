@@ -49,6 +49,8 @@ trove-classifiers = "2025.12.1.14"
 urllib3 = "2.6.3"
 virtualenv = "20.36.1"
 zstandard = "0.25.0"
+google-adk = "^1.22.0"
+litellm = "^1.80.13"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0"
